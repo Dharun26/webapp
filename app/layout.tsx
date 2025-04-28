@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "GetXCloud - Your Trusted Partner in Cloud Services",
   description: "Cloud Hosting, Backup, Email, Storage, and Management — With full transparency and client education.",
-    generator: 'v0.dev'
+
 }
 
 export default function RootLayout({
