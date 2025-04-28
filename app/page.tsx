@@ -1,9 +1,15 @@
+import Head from "next/head";
 import Link from "next/link"
 import { ArrowRight, CheckCircle, Server, Shield, Database, Mail, Monitor } from "lucide-react"
+ // import Head first
 
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
+        <Head>
+        <title>GetXCloud</title> {/* Page Title */}
+        <link rel="icon" href="/placeholder-logo.ico" /> {/* Favicon Link */}
+      </Head>
       {/* Hero Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-black text-white">
         <div className="container px-4 md:px-6 mx-auto">
